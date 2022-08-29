@@ -3,7 +3,7 @@
 // @import "plugins/numbered";
 @media (prefers-color-scheme: light) {
   @import "chroma-themes/xcode";
-  .LogoWithTitle { filter: invert(100%) }
+  .LogoWithTitle { filter: invert(100%); }
 }
 
 @media (prefers-color-scheme: dark) {
