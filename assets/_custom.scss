@@ -1,9 +1,41 @@
 /* You can add custom styles here. */
 
+:root {
+  --accent-color: #009CAE;
+}
+
+.SiteTitle {
+  margin-left: 10px; 
+  font-size: 16px;
+  font-weight: 600;
+}
+
+a.anchor {
+  background: -webkit-linear-gradient(-45deg, #31B594, #009BAE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// ::-moz-selection { background-color: var(--accent-color); }
+// ::selection { background-color: var(--accent-color); }
+
+#TableOfContents a {
+  font-weight: 600;
+  background: -webkit-linear-gradient(-45deg, #31B594, #009BAE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.book-menu a.active {
+  background: -webkit-linear-gradient(-45deg, #31B594, #009BAE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 // @import "plugins/numbered";
 @media (prefers-color-scheme: light) {
   @import "chroma-themes/xcode";
-  .LogoWithTitle { filter: invert(100%); }
+  // .LogoWithTitle { filter: invert(100%); }
 }
 
 @media (prefers-color-scheme: dark) {
