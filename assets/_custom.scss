@@ -2,12 +2,21 @@
 
 :root {
   --accent-color: #009CAE;
+  --link-color: #4FA79F;
 }
 
 .SiteTitle {
   margin-left: 10px; 
   font-size: 16px;
   font-weight: 600;
+}
+
+.markdown a {
+  color: var(--link-color);
+}
+
+.markdown a:visited {
+  color: var(--link-color);
 }
 
 a.anchor {
