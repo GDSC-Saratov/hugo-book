@@ -2,7 +2,13 @@
 
 :root {
   --accent-color: #009CAE;
-  --link-color: #4FA79F;
+  --link-color: #019f94;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #54b2aa;
+  }
 }
 
 .SiteTitle {
